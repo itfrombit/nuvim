@@ -1,6 +1,8 @@
 " Nu plugin for vim
-" Author:  Jeff Buck
-" Date:    2010-04-23
+" Language:    Nu
+" Maintainer:  Jeff Buck
+" Last Change: 2010-04-23
+" URL:         http://github.com/itfrombit/nuvim.git
 "
 " Description:
 "
