@@ -1,0 +1,31 @@
+DESCRIPTION:
+
+Vim Syntax and Plugin files for Nu.
+
+The Nu syntax file provides basic syntax highlighting.
+
+The Nu plugin provides two features within Vim:
+1. Reindents Nu code via nubile.
+2. Integrates Nu with screen.
+
+These features are mapped to the following keystrokes:
+
+<C-c><C-c> :  Send current scope or selection to screen
+<C-c>f     :  Send entire file to screen
+<C-c>c     :  Connect to a different screen session
+
+<C-c>n     :  Reindent Nu file
+
+More details on the plugin functionality are in the
+comments at the top of the plugin nu.vim file.
+
+
+INSTALLATION:
+
+Place these files in either your ~/.vim directory
+or (on Mac OS X) in /usr/share/vim/...
+
+Put a line like this in your ~/.vimrc file:
+  au BufNewFile,BufRead *.nu,*.nujson,Nukefile    setf nu
+
+
